@@ -1,10 +1,8 @@
-package com.paytm.ds.impl;
+package com.paytm.coding.solution1;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.paytm.ds.intf.IMovingAverageDS;
 
 /**
  * This class is an implementation for the data structure that stores elements
@@ -14,11 +12,11 @@ import com.paytm.ds.intf.IMovingAverageDS;
  *
  * @param <T extends Number>
  */
-public class MovingAverageList<T extends Number> implements IMovingAverageDS<T> {
+public class MovingAverageList1<T extends Number> implements IMovingAverageDS1<T> {
 
 	private List<T> list = null;
 
-	public MovingAverageList() {
+	public MovingAverageList1() {
 		this.list = new ArrayList<T>();
 	}
 

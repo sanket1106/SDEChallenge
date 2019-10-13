@@ -1,4 +1,4 @@
-package com.paytm.ds.intf;
+package com.paytm.coding.solution2;
 
 /**
  * This interface gives access to functions to add an element to data structure,
@@ -9,7 +9,7 @@ package com.paytm.ds.intf;
  *
  * @param <T>
  */
-public interface IMovingAverageDS<T extends Number> {
+public interface IMovingAverageDS2<T extends Number> {
 
 	/**
 	 * This method adds an element to the data structure passed as a parameter.
@@ -31,10 +31,9 @@ public interface IMovingAverageDS<T extends Number> {
 	 * This method calculates the moving average of the N last inserted elements. N
 	 * is passed as parameter.
 	 * 
-	 * @param numberofElements
 	 * @return {@link Double}
 	 */
-	Double getMovingAverage(Integer numberofElements);
+	Double getMovingAverage();
 
 	// <T> void addElement(T element);
 
